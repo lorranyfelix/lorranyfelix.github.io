@@ -1,0 +1,57 @@
+
+body{
+    background-color: darkred;
+            }
+
+            nav {
+                background-color: black;
+                padding-top: 1px;
+                padding-bottom: 1px;
+                height: 50px;
+                font-synthesis: style;
+             }
+
+             ul{ 
+                display: flex;
+                justify-content: space-between;
+            }
+
+            li{
+                list-style: none;
+                margin-right: 500px;
+            }
+        
+            a {color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+            }
+    
+            a:hover {
+                background-color: rgb(87, 87, 87);
+            }
+    
+    p{
+        color: aliceblue;
+        font-size: 25px;
+        font-family: 60px;
+    }
+    
+    h1{
+        color: white;
+
+    }
+    
+    div{
+        width: 100%;
+    }
+
+    .center {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .centro {
+        text-align: center;
+    }
+    
