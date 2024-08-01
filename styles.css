@@ -6,6 +6,15 @@
     font-family: 'Poppins', sans-serif;
 } 
 
+:root {
+    --cortexto: rgb(255, 255, 255);
+    --corfundo: black;
+    --textomenu: black;
+    --cortitulo: rgb(255, 0, 153);
+
+}
+
+
 header { 
     height: 100px;
     display: flex;
@@ -18,8 +27,8 @@ header {
 }
 
 a {
-    text-transform: uppercase;
-    color: black;
+    text-transform: uppercase; 
+    color: var(--textomenu);
     text-decoration: none;
     padding: 20px;
 }
@@ -36,7 +45,7 @@ li {
 }
 
 p{
-    color: rgb(255, 255, 255);
+    color: var(--cortexto);
     font-size: 13pt;
     font-family: 10px;
     display: block;
@@ -44,7 +53,7 @@ p{
 }
 
 .titulo{
-    color: rgb(255, 255, 255);
+    color: var(--cortitulo);
     margin-top: 50px;
     font-size: 40pt;
     margin-bottom: 20px;
@@ -60,14 +69,14 @@ p{
    main {
     display: flex;
     width: 80%;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--corfundo);
     height: 850px;
     margin: 0 auto ;
    }
   
     section {
         width: 80%;  
-        height:600px;
+        height: 600px;
         background-image: url(./dance.jpeg);
         background-repeat: no-repeat;
         background-position: center;
@@ -76,8 +85,8 @@ p{
     }
 
     .flex-item {
-        background-color: rgb(0, 0, 0);
-        width: 200px;
+        background-color: var(--corfundo);
+        width: 350px;
     }
 
     .c1 {
@@ -86,9 +95,7 @@ flex-grow: 1;
     
 .c2 {
     flex-grow: 2;
-    margin-top: 80px;
-    margin-left: 60px;
-    width: 15px;
+    margin-top: 45px;
 }
 
 .rodape {
