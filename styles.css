@@ -14,7 +14,7 @@ header {
 .menu {
     display: flex;
     gap: 20px;
-    margin-left: 5px;
+    margin-left: 100px;
 }
 
 a {
@@ -29,7 +29,6 @@ a {
 }
 
 li {
-    color: darkblue;
     margin-right: 10px;
     margin-top: 35px;
     margin-bottom: 10px;
@@ -38,7 +37,7 @@ li {
 
 p{
     color: rgb(255, 255, 255);
-    font-size: 11pt;
+    font-size: 13pt;
     font-family: 10px;
     display: block;
     padding-right: 150px;
